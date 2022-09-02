@@ -1,0 +1,48 @@
+{
+    "frontend": [
+        {
+            "title": "VueJs",
+            "image": "vuejs-original.svg"
+        },
+        {
+            "title": "AngularJs",
+            "image": "angularjs-original.svg"
+        },
+        {
+            "title": "Bulma",
+            "image": "bulma-plain.svg"
+        },
+        {
+            "title": "Bootstrap",
+            "image": "bootstrap-original.svg"
+        }
+    ],
+    "backend": [
+        {
+            "title": "NestJs",
+            "image": "nestjs-plain.svg"
+        },
+        {
+            "title": ".NET Core",
+            "image": "dotnetcore-original.svg"
+        },
+        {
+            "title": "PostgreSQL",
+            "image": "postgresql-plain.svg"
+        }
+    ],
+    "tools": [
+        {
+            "title": "Debian",
+            "image": "debian-original.svg"
+        },
+        {
+            "title": "Jetbrains",
+            "image": "jetbrains-original.svg"
+        },
+        {
+            "title": "VsCode",
+            "image": "vscode-original.svg"
+        }
+    ]
+}

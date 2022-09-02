@@ -4,5 +4,11 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     typescript: {
         strict: true
-    }
+    },
+    css: [
+        '~/assets/scss/main.scss'
+    ],
+    "buildModules": [
+        "@nuxtjs/color-mode",
+    ]
 })
