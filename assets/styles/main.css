@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html, body, #__nuxt {
+    @apply min-h-full h-full;
+}
+
+body {
+    @apply bg-concrete-100 dark:bg-christalle-950 text-christalle-950 dark:text-concrete-100;
+}
