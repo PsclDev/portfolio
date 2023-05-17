@@ -5,12 +5,15 @@
       <ClientOnly>
         <img
           :src="logoBlack"
-          class="w-1/2 m-auto"
+          class="w-1/2 xl:w-4/12 m-auto"
           :class="colorMode.value === 'light' ? 'opacity-[.03]' : 'opacity-20'"
         />
       </ClientOnly>
     </div>
-    <h1 class="z-10 text-[360px] tracking-tight font-['Kill_The_Noise']">
+    <!-- w-full text-center is used because of cropped font on safari engine -->
+    <h1
+      class="z-10 w-full text-center text-[150px] md:text-[360px] tracking-tight font-['Kill_The_Noise']"
+    >
       pscl
     </h1>
   </div>

@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col items-center justify-center w-4/5">
     <div>
-      <h1 class="text-4xl">Pascal Johann</h1>
-      <h2 class="text-2xl">{{ age }}yrs Full-Stack Developer</h2>
+      <h1 class="text-3xl md:text-4xl">Pascal Johann</h1>
+      <h2 class="text-xl md:text-2xl">{{ age }}yrs Full-Stack Developer</h2>
       <p class="mt-5">
         With the beginning of my apprenticeship I learned the development and
         since then I programmed mainly backend applications, in some cases also
