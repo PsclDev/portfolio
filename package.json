@@ -15,13 +15,8 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.6.7",
     "@types/node": "^18",
-    "eslint": "^8.39.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-tailwindcss": "^3.11.0",
     "nuxt": "^3.4.3",
     "nuxt-icon": "^0.4.0",
-    "prettier": "^2.8.8",
-    "vite-plugin-vsharp": "^1.4.2",
-    "vue-eslint-parser": "^9.2.0"
+    "vite-plugin-vsharp": "^1.4.2"
   }
 }
