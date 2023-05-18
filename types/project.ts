@@ -4,5 +4,4 @@ export type Project = {
   repo_url: string;
   language: string;
   color: string;
-  image_url: string;
 };

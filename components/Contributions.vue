@@ -15,7 +15,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/FrostyLabs/Automate-SSL-Certificates',
     language: 'Shell',
     color: '#89e051',
-    image_url: '',
   },
   {
     title: 'Lisense',
@@ -24,7 +23,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/maxstrauch/lisense',
     language: 'JavaScript',
     color: '#f1e05a',
-    image_url: '',
   },
   {
     title: 'wubbl0rz VOD Archiv',
@@ -32,7 +30,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/AgileProggers/archiv-backend',
     language: 'Svelte',
     color: '#ff3e00',
-    image_url: '',
   },
 ]);
 </script>

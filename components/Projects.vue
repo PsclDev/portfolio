@@ -11,11 +11,10 @@ var projects = ref<Project[]>([
   {
     title: 'My Portfolio',
     introduction:
-      'A portfolio written in Nuxt 3 with TailwindCSS and some other cool stuff',
+      'This portfolio is written in Nuxt 3 and TailwindCSS with the use of some cool nuxt modules',
     repo_url: 'https://github.com/PsclDev/portfolio',
     language: 'Nuxt 3',
     color: '#00DC82',
-    image_url: 'https://job-app.pscl.dev/groups.png',
   },
   {
     title: 'Job Application',
@@ -24,7 +23,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/job-application-frontend',
     language: 'Vue 3',
     color: '#41b883',
-    image_url: 'https://job-app.pscl.dev/groups.png',
   },
   {
     title: 'Invoice App',
@@ -33,7 +31,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/invoice-app',
     language: 'Nuxt 2',
     color: '#00DC82',
-    image_url: 'https://invoice-app.pscl.dev/statistics_view_light.png',
   },
   {
     title: 'Shortcut Helper',
@@ -42,7 +39,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/shortcut-helper',
     language: 'C# + Vue',
     color: '#178600',
-    image_url: 'https://shortcut-helper.pscl.dev/light.png',
   },
   {
     title: 'Repo Rename',
@@ -51,8 +47,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/repo-rename',
     language: 'JavaScript',
     color: '#f1e05a',
-    image_url:
-      'https://raw.githubusercontent.com/PsclDev/repo-rename/master/example.png',
   },
   {
     title: 'URL Shortener',
@@ -61,7 +55,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/url-shortener-frontend',
     language: 'Svelte',
     color: '#ff3e00',
-    image_url: 'https://url-shortener.pscl.dev/dashboard.png',
   },
   {
     title: 'ACC Server Configurator',
@@ -70,7 +63,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/acc-server-configurator-frontend',
     language: 'Vue 3',
     color: '#41b883',
-    image_url: 'https://acc-tool.pscl.dev/results.png',
   },
   {
     title: 'Automate SSL Certificates API',
@@ -78,7 +70,6 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/automate-ssl-certificates-api',
     language: 'Go',
     color: '#00ADD8',
-    image_url: '',
   },
 ]);
 </script>
