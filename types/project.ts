@@ -3,5 +3,6 @@ export type Project = {
   introduction: string;
   repo_url: string;
   language: string;
+  shortenedLanguage: string;
   color: string;
 };

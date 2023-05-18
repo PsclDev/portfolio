@@ -14,6 +14,7 @@ var projects = ref<Project[]>([
       'This portfolio is written in Nuxt 3 and TailwindCSS with the use of some cool nuxt modules',
     repo_url: 'https://github.com/PsclDev/portfolio',
     language: 'Nuxt 3',
+    shortenedLanguage: 'Nuxt',
     color: '#00DC82',
   },
   {
@@ -22,6 +23,7 @@ var projects = ref<Project[]>([
       'Job Application is a small fun project where you as a applicant can add your applications to get a nice overview for each application',
     repo_url: 'https://github.com/PsclDev/job-application-frontend',
     language: 'Vue 3',
+    shortenedLanguage: 'Vue 3',
     color: '#41b883',
   },
   {
@@ -30,6 +32,7 @@ var projects = ref<Project[]>([
       'Create offers and invoices and manage clients for your small business. Generates a pdf which can be then send by mail or email. Including some statistics',
     repo_url: 'https://github.com/PsclDev/invoice-app',
     language: 'Nuxt 2',
+    shortenedLanguage: 'Nuxt',
     color: '#00DC82',
   },
   {
@@ -38,6 +41,7 @@ var projects = ref<Project[]>([
       'Small and neat tool to get away from your mouse and enforcing more keyboard shortcuts',
     repo_url: 'https://github.com/PsclDev/shortcut-helper',
     language: 'C# + Vue',
+    shortenedLanguage: 'C#',
     color: '#178600',
   },
   {
@@ -46,6 +50,7 @@ var projects = ref<Project[]>([
       'simple and easy to use CLI tool to rename your repository into a new case style',
     repo_url: 'https://github.com/PsclDev/repo-rename',
     language: 'JavaScript',
+    shortenedLanguage: 'JS',
     color: '#f1e05a',
   },
   {
@@ -53,7 +58,8 @@ var projects = ref<Project[]>([
     introduction:
       'url-shortener based on a svelte frontend, nestjs backend and postgres database',
     repo_url: 'https://github.com/PsclDev/url-shortener-frontend',
-    language: 'Svelte',
+    language: 'SvelteKit',
+    shortenedLanguage: 'Svelte',
     color: '#ff3e00',
   },
   {
@@ -62,6 +68,7 @@ var projects = ref<Project[]>([
       'view race results, manage entrylist and server settings for your assetto corsa competizione serve',
     repo_url: 'https://github.com/PsclDev/acc-server-configurator-frontend',
     language: 'Vue 3',
+    shortenedLanguage: 'Vue 3',
     color: '#41b883',
   },
   {
@@ -69,6 +76,7 @@ var projects = ref<Project[]>([
     introduction: 'API wrapper around the Automate SSL Certificates script',
     repo_url: 'https://github.com/PsclDev/automate-ssl-certificates-api',
     language: 'Go',
+    shortenedLanguage: 'Go',
     color: '#00ADD8',
   },
 ]);
