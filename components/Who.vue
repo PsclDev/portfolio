@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col items-start justify-center w-4/5">
+  <div class="flex w-4/5 flex-col items-start justify-center">
     <div>
       <h1 class="text-3xl md:text-4xl">Pascal Johann</h1>
       <h2 class="text-xl md:text-2xl">
         {{ calculateAge() }}yrs Full-Stack Developer
       </h2>
-      <p class="xl:w-3/4 mt-5">
+      <p class="mt-5 xl:w-3/4">
         With the beginning of my apprenticeship I build a strong foundation in
         C# and Powerscript. <br />Additionally, I've dedicated my free time to
         mastering languages such as JavaScript/TypeScript, GoLang, Python, and

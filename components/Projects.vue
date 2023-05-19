@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap items-center justify-center w-full gap-5">
+  <div class="flex w-full flex-wrap items-center justify-center gap-5">
     <Card v-for="project in projects" :key="project.title" :project="project" />
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { Project } from '~/types/project';
 
-var projects = ref<Project[]>([
+const projects = ref<Project[]>([
   {
     title: 'My Portfolio',
     introduction:
@@ -15,7 +15,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/portfolio',
     language: 'Nuxt 3',
     shortenedLanguage: 'Nuxt',
-    color: '#00DC82',
+    color: '#00DC82'
   },
   {
     title: 'Job Application',
@@ -24,7 +24,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/job-application-frontend',
     language: 'Vue 3',
     shortenedLanguage: 'Vue 3',
-    color: '#41b883',
+    color: '#41b883'
   },
   {
     title: 'Invoice App',
@@ -33,7 +33,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/invoice-app',
     language: 'Nuxt 2',
     shortenedLanguage: 'Nuxt',
-    color: '#00DC82',
+    color: '#00DC82'
   },
   {
     title: 'Shortcut Helper',
@@ -42,7 +42,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/shortcut-helper',
     language: 'C# + Vue',
     shortenedLanguage: 'C#',
-    color: '#178600',
+    color: '#178600'
   },
   {
     title: 'Repo Rename',
@@ -51,7 +51,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/repo-rename',
     language: 'JavaScript',
     shortenedLanguage: 'JS',
-    color: '#f1e05a',
+    color: '#f1e05a'
   },
   {
     title: 'URL Shortener',
@@ -60,7 +60,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/url-shortener-frontend',
     language: 'SvelteKit',
     shortenedLanguage: 'Svelte',
-    color: '#ff3e00',
+    color: '#ff3e00'
   },
   {
     title: 'ACC Server Configurator',
@@ -69,7 +69,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/acc-server-configurator-frontend',
     language: 'Vue 3',
     shortenedLanguage: 'Vue 3',
-    color: '#41b883',
+    color: '#41b883'
   },
   {
     title: 'Automate SSL Certificates API',
@@ -77,7 +77,7 @@ var projects = ref<Project[]>([
     repo_url: 'https://github.com/PsclDev/automate-ssl-certificates-api',
     language: 'Go',
     shortenedLanguage: 'Go',
-    color: '#00ADD8',
-  },
+    color: '#00ADD8'
+  }
 ]);
 </script>

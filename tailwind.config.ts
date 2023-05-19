@@ -6,7 +6,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         concrete: {
@@ -20,7 +20,7 @@ export default <Partial<Config>>{
           '700': '#6a6a6a',
           '800': '#5a5a5a',
           '900': '#4e4e4e',
-          '950': '#282828',
+          '950': '#282828'
         },
         christalle: {
           '50': '#f9f4ff',
@@ -33,9 +33,9 @@ export default <Partial<Config>>{
           '700': '#6715db',
           '800': '#5917b2',
           '900': '#4a148f',
-          '950': '#330074',
-        },
-      },
-    },
-  },
+          '950': '#330074'
+        }
+      }
+    }
+  }
 };

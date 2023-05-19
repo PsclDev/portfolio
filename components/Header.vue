@@ -1,5 +1,5 @@
 <template>
-  <header class="z-10 p-5 fixed w-full backdrop-blur-sm">
+  <header class="fixed z-10 w-full p-5 backdrop-blur-sm">
     <!-- used because of hydration issues with the useColorMode composable -->
     <ClientOnly>
       <div class="flex justify-between">

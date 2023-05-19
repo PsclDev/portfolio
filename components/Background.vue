@@ -4,7 +4,7 @@
     <ClientOnly>
       <img
         :src="colorMode.value === 'light' ? backgroundWhite : backgroundPurple"
-        class="w-full m-auto opacity-20"
+        class="m-auto w-full opacity-20"
       />
     </ClientOnly>
   </div>

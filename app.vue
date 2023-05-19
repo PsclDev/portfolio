@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full h-full min-h-full">
+  <div class="h-full min-h-full w-full">
     <NuxtLayout>
-      <main class="w-full h-full min-h-full flex flex-col gap-32">
+      <main class="flex h-full min-h-full w-full flex-col gap-32">
         <Start />
         <Section title="Who">
           <Who />
