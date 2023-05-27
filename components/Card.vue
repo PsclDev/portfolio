@@ -4,7 +4,7 @@
     tabindex="0"
   >
     <p
-      class="absolute bottom-4 right-4 z-[99] cursor-pointer text-xs tracking-[1px] text-black opacity-0 transition-[0.2s] duration-[ease] group-hover:opacity-100 group-focus:opacity-100"
+      class="absolute bottom-1 right-2 z-[99] cursor-pointer text-xs tracking-[1px] text-black opacity-0 transition-[0.2s] duration-[ease] group-hover:opacity-100 group-focus:opacity-100 md:bottom-4 md:right-4"
     >
       <NuxtLink :to="project.repo_url" target="_blank">
         Click to open the repo
@@ -22,7 +22,7 @@
       {{ project.title }}
     </h2>
     <p
-      class="absolute left-1/2 top-1/2 z-50 w-11/12 -translate-x-1/2 -translate-y-1/2 text-black opacity-0 transition-[0.2s] duration-[ease] group-hover:opacity-100 group-focus:opacity-100"
+      class="absolute left-1/2 top-1/2 z-50 w-11/12 -translate-x-1/2 -translate-y-1/2 text-xs text-black opacity-0 transition-[0.2s] duration-[ease] group-hover:opacity-100 group-focus:opacity-100 md:text-base"
     >
       {{ project.introduction }}
     </p>
