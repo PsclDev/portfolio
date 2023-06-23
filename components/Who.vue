@@ -15,16 +15,21 @@
         NestJs with Prisma and Postgres.
       </p>
       <div class="mt-5 flex gap-10">
-        <NuxtLink to="mailto:me@pscl.dev”">
+        <NuxtLink to="mailto:me@pscl.dev”" data-umami-event="social-mailto">
           <Icon size="36" name="fa:envelope" />
         </NuxtLink>
         <NuxtLink
           to="https://www.linkedin.com/in/pascal-johann-046278203"
           target="_blank"
+          data-umami-event="social-linkedin"
         >
           <Icon size="36" name="fa:linkedin" />
         </NuxtLink>
-        <NuxtLink to="https://github.com/pscldev" target="_blank">
+        <NuxtLink
+          to="https://github.com/pscldev"
+          target="_blank"
+          data-umami-event="social-github"
+        >
           <Icon size="36" name="fa:github" />
         </NuxtLink>
       </div>

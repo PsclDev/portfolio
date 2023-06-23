@@ -48,5 +48,10 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [vsharp()]
+  },
+  runtimeConfig: {
+    public: {
+      isDev: process.env.NODE_ENV === 'development'
+    }
   }
 });
