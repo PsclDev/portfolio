@@ -6,7 +6,11 @@
     <p
       class="absolute bottom-1 right-2 z-[99] cursor-pointer text-xs tracking-[1px] text-black opacity-0 transition-[0.2s] duration-[ease] group-hover:opacity-100 group-focus:opacity-100 md:bottom-4 md:right-4"
     >
-      <NuxtLink :to="project.repo_url" target="_blank">
+      <NuxtLink
+        :data-umami-event="'project-clicked:' + project.title"
+        :to="project.repo_url"
+        target="_blank"
+      >
         Click to open the repo
       </NuxtLink>
     </p>

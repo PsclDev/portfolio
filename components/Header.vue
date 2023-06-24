@@ -28,10 +28,12 @@
 <script setup lang="ts">
 import logoPurple from '~/assets/images/logo-purple.svg';
 import logoWhite from '~/assets/images/logo-white.svg';
+declare let umami: any;
 
 const colorMode = useColorMode();
 
 function toggleColorMode() {
   colorMode.preference = colorMode.preference === 'light' ? 'dark' : 'light';
+  umami.track(`colorMode-to-${colorMode.preference}`);
 }
 </script>

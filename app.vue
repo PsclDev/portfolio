@@ -23,14 +23,13 @@
 <script setup lang="ts">
 const config = useRuntimeConfig();
 
-if (config.public.isDev) {
-  useHead({
-    script: [
-      {
-        src: 'https://umami.pscl.dev/script.js',
-        'data-website-id': '0950d178-7753-435c-984b-942f611a0b5d'
-      }
-    ]
-  });
-}
+useHead({
+  script: [
+    {
+      src: 'https://umami.pscl.dev/script.js',
+      'data-website-id': '0950d178-7753-435c-984b-942f611a0b5d',
+      'data-domains': 'pscl.dev'
+    }
+  ]
+});
 </script>
