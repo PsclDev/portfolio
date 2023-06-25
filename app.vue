@@ -21,8 +21,6 @@
 </template>
 
 <script setup lang="ts">
-const config = useRuntimeConfig();
-
 useHead({
   script: [
     {
