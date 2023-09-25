@@ -3,7 +3,7 @@
     <div>
       <h1 class="text-3xl md:text-4xl">Pascal Johann</h1>
       <h2 class="text-xl md:text-2xl">
-        {{ calculateAge() }}yrs Full-Stack Developer
+        {{ useGetAge() }}yrs Full-Stack Developer
       </h2>
       <p class="mt-5 xl:w-3/4">
         With the beginning of my apprenticeship I build a strong foundation in
@@ -36,10 +36,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-function calculateAge() {
-  const difference = new Date().getTime() - new Date(2000, 9, 25).getTime();
-  return Math.floor(difference / (1000 * 60 * 60 * 24 * 365));
-}
-</script>
