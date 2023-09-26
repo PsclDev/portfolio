@@ -15,22 +15,22 @@ export default defineNuxtConfig({
         {
           rel: 'apple-touch-icon',
           sizes: '180x180',
-          href: '~/public/apple-touch-icon.png'
+          href: '/apple-touch-icon.png'
         },
         {
           rel: 'icon',
           type: 'image/png',
           sizes: '32x32',
-          href: '~/public/favicon-32x32.png'
+          href: '/favicon-32x32.png'
         },
         {
           rel: 'icon',
           type: 'image/png',
           sizes: '16x16',
-          href: '~/public/favicon-16x16.png'
+          href: '/favicon-16x16.png'
         },
-        { rel: 'manifest', href: '~/public/site.webmanifest' },
-        { rel: 'mask-icon', href: '~/public/safari-pinned-tab.svg' },
+        { rel: 'manifest', href: '/site.webmanifest' },
+        { rel: 'mask-icon', href: '/safari-pinned-tab.svg' },
         { rel: 'canonical', href: 'https://pscl.dev' }
       ],
       meta: [
@@ -46,7 +46,7 @@ export default defineNuxtConfig({
         {
           key: 'og-image',
           property: 'og:image',
-          content: '~/public/android-chrome-512x512.png'
+          content: '/android-chrome-512x512.png'
         },
         {
           property: 'og:locale',
@@ -116,10 +116,5 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [vsharp()]
-  },
-  runtimeConfig: {
-    public: {
-      isDev: process.env.NODE_ENV === 'development'
-    }
   }
 });
