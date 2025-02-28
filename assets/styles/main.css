@@ -5,6 +5,7 @@
 html,
 body,
 #__nuxt {
+  scroll-behavior: smooth;
   @apply min-h-full h-full;
 }
 

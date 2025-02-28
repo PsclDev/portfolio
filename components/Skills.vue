@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="mb-5 text-xl">
-      Some of my most used Langauges, Frameworks and Tools
+      Some of my favorite used Tech for personal projects
     </p>
     <div class="flex w-full flex-col justify-evenly gap-5 lg:flex-row">
       <div class="flex flex-col items-center gap-4">
@@ -42,27 +42,18 @@
 </template>
 
 <script setup lang="ts">
-import angularLogo from '~/assets/images/skills/angular.svg';
+import appleLogo from '~/assets/images/skills/apple.svg';
 import csharpLogo from '~/assets/images/skills/csharp.svg';
 import dockerLogo from '~/assets/images/skills/docker.svg';
 import dotnet from '~/assets/images/skills/dotnet.svg';
-import goLogo from '~/assets/images/skills/go.svg';
-import kubernetesLogo from '~/assets/images/skills/kubernetes.svg';
+import githubActionsLogo from '~/assets/images/skills/githubactions.svg';
 import nestjsLogo from '~/assets/images/skills/nestjs.svg';
 import nuxtLogo from '~/assets/images/skills/nuxtjs.svg';
 import postgresLogo from '~/assets/images/skills/postgres.svg';
-import svelteLogo from '~/assets/images/skills/svelte.svg';
 import tailwindLogo from '~/assets/images/skills/tailwind.svg';
 import tsLogo from '~/assets/images/skills/ts.svg';
 
-const languages = ref([csharpLogo, tsLogo, goLogo]);
-const frameworks = ref([
-  dotnet,
-  nuxtLogo,
-  svelteLogo,
-  angularLogo,
-  nestjsLogo,
-  tailwindLogo
-]);
-const tools = ref([postgresLogo, dockerLogo, kubernetesLogo]);
+const languages = ref([tsLogo, csharpLogo]);
+const frameworks = ref([nuxtLogo, nestjsLogo, dotnet, tailwindLogo]);
+const tools = ref([appleLogo, postgresLogo, dockerLogo, githubActionsLogo]);
 </script>

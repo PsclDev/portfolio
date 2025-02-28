@@ -9,7 +9,7 @@
         <LazySection title="Skills">
           <Skills />
         </LazySection>
-        <LazySection title="Projects">
+        <LazySection title="My Projects">
           <Projects />
         </LazySection>
         <LazySection title="Contributions">

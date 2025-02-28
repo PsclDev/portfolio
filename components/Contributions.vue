@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full flex-wrap items-center justify-center gap-5">
+  <div class="flex w-full flex-wrap items-center justify-center gap-5 pb-16">
     <Card v-for="project in projects" :key="project.title" :project="project" />
   </div>
 </template>
