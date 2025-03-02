@@ -1,15 +1,15 @@
-FROM node:18-alpine3.16 AS build
+FROM node:22-alpine AS build
 
 RUN mkdir -p /app
 WORKDIR /app
 COPY . .
 
-RUN yarn install --frozen-lockfile
-RUN yarn cache clean
-RUN yarn build
+RUN npm ci
+RUN npm cache clean --force
+RUN npm run build
 
 
-FROM node:18-alpine3.16
+FROM node:22-alpine
 
 RUN mkdir -p /app
 WORKDIR /app
