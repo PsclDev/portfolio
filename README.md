@@ -1,31 +1,38 @@
-# Nuxt 3 Minimal Starter
+# Portfolio - pscl.dev
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+My personal portfolio website built with Nuxt 3, showcasing my projects and skills.
 
-## Setup
+## 🛠️ Tech Stack
 
-Make sure to install the dependencies:
+- [Nuxt 3](https://nuxt.com/) - The Vue Framework
+- [Vue 3](https://vuejs.org/) - The Progressive JavaScript Framework
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types
+- [Nuxt Color Mode](https://color-mode.nuxtjs.org/) - Dark/Light mode support
+- [Google Fonts](https://fonts.google.com/) - Web fonts
 
+## 🚦 Getting Started
+
+Make sure to have [Node.js](https://nodejs.org/) installed (version 16.x or higher).
+
+1. Clone the repository:
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+git clone https://github.com/pscldev/portfolio.git
 ```
 
-## Development Server
+2. Install the dependencies:
+```bash
+npm install
+```
 
-Start the development server on `http://localhost:3000`
-
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-## Production
+The application will be available at `http://localhost:3000`
+
+## 🏗️ Build
 
 Build the application for production:
 
@@ -33,10 +40,6 @@ Build the application for production:
 npm run build
 ```
 
-Locally preview production build:
+## 📝 License
 
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[MIT License](LICENSE) - feel free to use this code as inspiration for your own portfolio!
