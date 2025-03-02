@@ -4,35 +4,17 @@
       Some of my favorite used Tech for personal projects
     </p>
     <div class="flex w-full flex-col justify-evenly gap-5 lg:flex-row">
-      <div class="flex flex-col items-center gap-4">
-        <h3 class="text-3xl">Languages</h3>
+      <div
+        v-for="skill in skills"
+        :key="skill.name"
+        class="flex flex-col items-center gap-4"
+      >
+        <h3 class="text-3xl">{{ skill.name }}</h3>
         <div class="flex gap-4">
-          <img
-            v-for="img in languages"
-            :key="img"
-            :src="img"
-            class="h-10 w-10 md:h-12 md:w-12 xl:h-14 xl:w-14"
-          />
-        </div>
-      </div>
-      <div class="flex flex-col items-center gap-4">
-        <h3 class="text-3xl">Frameworks</h3>
-        <div class="flex gap-4">
-          <img
-            v-for="img in frameworks"
-            :key="img"
-            :src="img"
-            class="h-10 w-10 md:h-12 md:w-12 xl:h-14 xl:w-14"
-          />
-        </div>
-      </div>
-      <div class="flex flex-col items-center gap-4">
-        <h3 class="text-3xl">Tools</h3>
-        <div class="flex gap-4">
-          <img
-            v-for="img in tools"
-            :key="img"
-            :src="img"
+          <Icon
+            v-for="icon in skill.items"
+            :key="icon"
+            :name="`devicon:${icon}`"
             class="h-10 w-10 md:h-12 md:w-12 xl:h-14 xl:w-14"
           />
         </div>
@@ -42,18 +24,18 @@
 </template>
 
 <script setup lang="ts">
-import appleLogo from '~/assets/images/skills/apple.svg';
-import csharpLogo from '~/assets/images/skills/csharp.svg';
-import dockerLogo from '~/assets/images/skills/docker.svg';
-import dotnet from '~/assets/images/skills/dotnet.svg';
-import githubActionsLogo from '~/assets/images/skills/githubactions.svg';
-import nestjsLogo from '~/assets/images/skills/nestjs.svg';
-import nuxtLogo from '~/assets/images/skills/nuxtjs.svg';
-import postgresLogo from '~/assets/images/skills/postgres.svg';
-import tailwindLogo from '~/assets/images/skills/tailwind.svg';
-import tsLogo from '~/assets/images/skills/ts.svg';
-
-const languages = ref([tsLogo, csharpLogo]);
-const frameworks = ref([nuxtLogo, nestjsLogo, dotnet, tailwindLogo]);
-const tools = ref([appleLogo, postgresLogo, dockerLogo, githubActionsLogo]);
+const skills = ref([
+  {
+    name: 'Languages',
+    items: ['typescript', 'csharp']
+  },
+  {
+    name: 'Frameworks',
+    items: ['nuxtjs', 'nestjs', 'dotnetcore', 'tailwindcss']
+  },
+  {
+    name: 'Tools',
+    items: ['apple', 'postgresql', 'docker', 'githubactions']
+  }
+]);
 </script>

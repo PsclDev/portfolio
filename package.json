@@ -13,6 +13,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify-json/devicon": "^1.2.17",
     "@iconify-json/fa": "^1.2.1",
     "@iconify-json/line-md": "^1.2.5",
     "@iconify-json/nrk": "^1.2.3",
