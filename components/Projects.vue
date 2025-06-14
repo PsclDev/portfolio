@@ -9,6 +9,24 @@ import { Project } from '~/types/project';
 
 const projects = ref<Project[]>([
   {
+    title: 'Online Geography Game',
+    introduction:
+      'Currently in development, a game where you can play a geography game with your friends online',
+    repo_url: 'https://github.com/PsclDev',
+    language: 'Next.js',
+    shortenedLanguage: 'Next.js',
+    color: '#161616'
+  },
+  {
+    title: 'KI-Rag Chat',
+    introduction:
+      'An intelligent RAG chat application. Built with a modular architecture, processes PDF documents with advanced image extraction, vectorization, conversations about both text and visual content',
+    repo_url: 'https://github.com/PsclDev/rag-chat',
+    language: 'Nuxt 3',
+    shortenedLanguage: 'Nuxt',
+    color: '#00DC82'
+  },
+  {
     title: 'My Portfolio',
     introduction:
       'This portfolio is written in Nuxt 3 and TailwindCSS with the use of some cool nuxt modules',
